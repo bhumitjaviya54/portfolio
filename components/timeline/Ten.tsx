@@ -19,7 +19,7 @@ const Ten = () => {
             <ul>
                 <li className="flex gap-2 text-base text-textDark">
                 </li>
-                <a href="https://devvasvelia.netlify.app/" className="flex gap-1 text-textGreen">
+                <a href="https://bhumitjaviya.vercel.app/" className="flex gap-1 text-textGreen">
                     <span className="mt-1 text-textGreen">
                         <FaLink />
                     </span>
