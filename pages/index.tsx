@@ -4,6 +4,11 @@ import RightSide from "@/components/RightSide";
 import Head from "next/head";
 import { motion } from "framer-motion";
 import Banner from "@/components/Banner";
+import About from "@/components/About";
+import Experience from "@/components/Experience";
+import Project from "@/components/Project";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -14,7 +19,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favcon.ico" />
       </Head>
-      <main className="w-full h-screen overflow-x-hidden overflow-y-scroll font-bodyFont bg-bodyColor text-textLight">
+      <main className="w-full h-screen overflow-x-hidden overflow-y-scroll scrollbar scrollbar-track-textDark/20 scrollbar-thumb-textDark/60 font-bodyFont bg-bodyColor text-textLight">
         <Navbar />
         <div className="w-full h-[88vh] xl:flex items-center gap-20 justify-between">
           <motion.div
@@ -24,8 +29,13 @@ export default function Home() {
             className="fixed bottom-0 left-0 hidden w-32 h-full xl:inline-flex">
             <LeftSide />
           </motion.div>
-          <div className="h-[88vh] mx-auto p-4">
-            <Banner/>
+          <div className="h-[88vh] mx-auto w-full p-4">
+            <Banner />
+            <About />
+            <Experience />
+            <Project />
+            <Contact />
+            <Footer />
           </div>
           <motion.div
             initial={{ opacity: 0 }}

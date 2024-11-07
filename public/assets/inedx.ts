@@ -1,5 +1,7 @@
 import logo from "./images/logo.png";
-import profileImg from "./images/profile.png";
+import profileImg from "./images/profile.jpg";
 import todoImg from "./images/todo.png"
+import playgridImg from "./images/playgrid.png"
+import devImg from "./images/dev.png"
 
-export { logo, profileImg, todoImg };
+export { logo, profileImg, todoImg, playgridImg, devImg };
