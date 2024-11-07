@@ -192,7 +192,7 @@ const Navbar = () => {
                         animate={{ x: 0, opacity: 1 }}
                         transition={{
                           duration: 0.2,
-                          delay: 0.4,
+                          delay: 0.3,
                           ease: "easeIn",
                         }}>
                         <span className='text-textGreen'>03.</span>
